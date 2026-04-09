@@ -1,0 +1,2 @@
+datasets:
+    - json_path: /chanxueyan/ano_people/datasets/Data-DeQA-Score/KADIS700K/refA_sd_brief/metas/train_dist.json

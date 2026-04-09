@@ -1,0 +1,35 @@
+# 先忽略全部
+*
+
+# 允许进入目录继续匹配
+!*/
+!.gitignore
+
+# =========================
+# 1) 保留 benchmark/VR 下的 IAA 和 IQA
+# =========================
+!benchmark/
+!benchmark/VR/
+!benchmark/VR/IAA/
+!benchmark/VR/IAA/**
+!benchmark/VR/IQA/
+!benchmark/VR/IQA/**
+
+# =========================
+# 2) 保留 src/eval 下两个指定文件
+# =========================
+!src/
+!src/eval/
+!src/eval/eval_uni_iqa_iaa.py
+!src/eval/eval_uni_iqa_iaa.sh
+
+# =========================
+# 3) 保留 src/open-r1-multimodal 下所有文件
+# =========================
+!src/open-r1-multimodal/
+!src/open-r1-multimodal/**
+
+# # 排除所有与 qinsight 相关的文件/目录
+src/open-r1-multimodal/*qinsight*
+src/open-r1-multimodal/**/*qinsight*
+src/open-r1-multimodal/wandb

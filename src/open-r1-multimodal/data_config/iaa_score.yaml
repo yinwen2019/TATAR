@@ -1,0 +1,2 @@
+datasets:
+    - json_path: /chanxueyan/ano_people/datasets/ArtiMuse-10K-251219/score/train.json
